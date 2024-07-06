@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document -  WEBSPICE - Sofie Vandenberghe -  www.webspice.be*/
+
+	@font-face { src: url(../font/Roboto-Regular.ttf); font-family: Roboto; }
+	@font-face { src: url(../font/Roboto-Light.ttf); font-family:RobotoL; }
+	@font-face { src: url(../font/Roboto-Bold.ttf); font-family: RobotoB; }
+	@font-face { src: url(../font/Roboto-Medium.ttf); font-family: RobotoM; }
+	@font-face { src: url(../font/Montserrat-Regular.ttf); font-family: Montserrat; }
+	@font-face { src: url(../font/Montserrat-Light.ttf); font-family:MontserratL; }
+	@font-face { src: url(../font/Montserrat-Bold.ttf); font-family: MontserratB; }
+	@font-face { src: url(../font/Montserrat-Medium.ttf); font-family: MontserratM; }
+	@font-face { src: url(../font/Montserrat-SemiBold.ttf); font-family: MontserratSB; }
+
+	html {
+	  scroll-behavior: smooth;
+	}
+	body{
+		font-family: 'Roboto', 'Montserrat',sans-serif;
+		color:#000000;
+		font-size: 14px;
+	}
+	
+	/* top header  */
+	.top-header {
+    background: #f1f1f1;
+}
+.navi {
+    background: #b3bacd;
+}
+.btn {background:#00adef; display:block; max-width:205px; height:40px; color:#fff; width:100%; line-height:40px; padding:0;}
+.sec-1{background:#eee; padding:35px 0;}
+.sec-2{background:#fff; padding:35px 0;}
